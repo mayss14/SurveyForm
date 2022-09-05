@@ -1,0 +1,46 @@
+.container-fluid
+{
+  background-image:url(https://images.unsplash.com/photo-1541746972996-4e0b0f43e02a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+#title
+{
+  font-size:35px;
+  color:white;
+  padding-top:80px;
+}
+p
+{
+  color:white;
+  font-size:20px;
+}
+#survey-form
+{
+  padding:60px;
+  margin-left:350px;
+  margin-right:350px;
+  border-radius:8px;
+  background-color:rgba(0,0,0,0.6);
+  color:white;
+  font-family:monospace;
+  font-size:20px;
+}
+#text
+{
+  resize:none;
+}
+
+@media screen and (max-width:700px)
+{
+  #survey-form
+{
+   display:inline-block;
+   margin:0 auto;
+   padding:30px;
+  
+}
+}
+
